@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  margin: 200px auto;
+  width: 500px;
+  height: 450px;
+  background-color: #0b2434;
+  display: grid;
+  place-items: center;
+  border-radius: 2px;
+}
+.content {
+  width: 460px;
+  height: 390px;
+  background-color: aliceblue;
+  margin: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.dices {
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Karla", sans-serif;
+}
+.dice {
+  background-color: #ffffff;
+  width: 36px;
+  height: 36px;
+  margin: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px #00000026;
+  transition: 0.3s;
+}
+.isHeld {
+  background-color: #59e391;
+}
+.dice:hover {
+  cursor: pointer;
+  background-color: #59e391;
+}
+.roll-btn {
+  border-radius: 4px;
+  width: 95px;
+  height: 40px;
+  box-shadow: 0px 3.1999998092651367px 7.679999828338623px 0px #0000002e;
+  background: #5035ff;
+  border: none;
+  margin: 10px auto;
+  cursor: pointer;
+  transform: 0.3s;
+  color: white;
+}
+.roll-btn:hover {
+  background: #3419e3;
+}
+.roll-btn:focus {
+  outline: none;
+}
+
+.roll-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.text {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+.para {
+  margin: 10px auto;
+  width: 70%;
+}
